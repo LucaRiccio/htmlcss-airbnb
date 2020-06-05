@@ -4,21 +4,45 @@
   box-sizing: border-box;
 }
 
-.contenitore {
+.contenitore1{
   width: 100vw;
   height: 100vh;
-  background-image: url('https://cdn.pixabay.com/photo/2017/12/28/08/18/arch-of-constantine-3044634_960_720.jpg');
+  background-image: url('https://images.hdqwalls.com/download/tokyo-cityscape-anime-4k-xc-1680x1050.jpg');
   background-size: cover;
   position: relative;
-
 }
 
-.titolo {
+.contenitore2{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://avante.biz/wp-content/uploads/Rome-Wallpaper/Rome-Wallpaper-001.jpg');
+  background-size: cover;
+  position: relative;
+}
 
+.contenitore3{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://www.pxwall.com/wp-content/uploads/2018/06/Wallpaper%20Amsterdam,%20channel,%204K,%20Architecture%20681892110.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  right:0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.3);
+}
+
+.titolo{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50px,-50px);
+  transform: translate(-50%,-50%);
   text-align: center;
-  color: white;
+  color: lavender;
+  font-family: sans-serif;
 }
